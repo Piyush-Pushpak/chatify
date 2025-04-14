@@ -23,6 +23,6 @@ app.use("/api/message", messageRoutes)
 const PORT = process.env.PORT;
 
 app.listen(PORT, () => {
-    console.log("Port is listening on 3000");
+    console.log(`Server is running on port ${PORT}`);
     connectDB();
 })
